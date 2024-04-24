@@ -2,7 +2,7 @@
 import {useFormState} from 'react-dom'
 import { useState } from 'react'
 import {toast} from 'sonner'
-import { editAction } from '@/actions/EditTaskAction'
+import { editAction } from '@/actions/editTaskAction'
 import {cn} from '@/lib/utils/mergeCss'
 
 import {FormControl, Input, Label} from '.'
