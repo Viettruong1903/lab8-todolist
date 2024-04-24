@@ -27,7 +27,7 @@ async function addTask(task) {
 	// using keys at the unique item
 	// create a new unique firebasr RTDB key
 	const key = push(rootPath).key
-	const path = `todos/${key}`
+	const path = `todosDB/${key}`
 
 	//  set method of the database sdk
 	// emulator suit for testing running on your machine.
